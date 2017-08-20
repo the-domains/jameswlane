@@ -1,41 +1,56 @@
 name: James W. Lane
-favicon: null
-layout_spectrum: 0
-typography_spectrum: 0.47548
+analytics:
+  google: UA-6281429-2
+purpose:
+  - type: contact
+    url: 'mailto:james.w.lane@mac.com'
+    label: Contact me
+github: true
+description: Husband Father JavaScript Enthusiast
+author:
+  name: James W. Lane
+  url: 'http://jameswlane.com/'
+  email: james.w.lane@mac.com
+cta:
+  bucket: null
+  version: null
+  domain: null
 collections:
   - index:
       path: /
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-title: Full Stack Developer
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: UA-6281429-2
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+    permalink:
+      path: '/:title/'
+content: []
+navigation:
+  - id: c7081874-132c-459d-ba6a-229a43df81f5
+    name: About Me
+    type: content
+  - id: e4bd78ad-1f56-4a44-bd44-c74f804907ab
+    name: Experiance
+    type: content
+layout_spectrum: 0
 color:
+  lightness: 0.1717178809922189
   brandColors:
     - '#3C493F'
     - '#7E8D85'
     - '#B3BFB8'
     - '#F0F7F4'
     - '#A2E3C4'
-  brandStrength: 0.560406991513446
-  lightness: 0.1717178809922189
   saturation: 0.7610699047800153
+  brandStrength: 0.560406991513446
   rhythmicContrast: 0.9451743843965232
-purpose: []
+content_rating:
+  adult: false
+typography_spectrum: 0.47548
+opengraph:
+  type: article
+  appId: '256828798050015'
+title: Full Stack Developer
